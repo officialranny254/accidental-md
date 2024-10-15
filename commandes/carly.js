@@ -38,13 +38,13 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────《CYBERION-V1》────☣
+╭────《SAVAGE》────☣
 |🔱 *User* : ${s.OWNER_NAME}
 |🔱 *Mode* : ${mode}
 |🔱 *Commands* : ${cm.length} 
 |🔱 *Time* : ${temps} 
 |🔱 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-|🔰 CARL WILLIAM
+|🔰 MBUVI TECH
 ╰─────✨✨✨✨✨─────☣ \n\n`;
  
     let menuMsg=`  
