@@ -41,15 +41,15 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
- 🤗 *Hello* : ${nomAuteurMessage} welcome to Spark X menu📃
+ 🤗 *Hello* : ${nomAuteurMessage} welcome to Savage menu📃
 ┏▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 ▮ 『𝗠𝗔𝗜𝗡』
 ▯  🌐 *Mode* : 【${mode}】
 ▮  🔑 ignition : [${s.PREFIXE}]
 ▯  📜 Plugins : [${cm.length}] 
 ▮  ⌚️ *Time* :  ${temps}
-▯  🖥️ System : CYBERION-SPARK-X
-▮  🌌 Theme : ¢увєяρυик
+▯  🖥️ System : Savage
+▮  🌌 Theme : MBUVI Tech
 ▯  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
 └▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 ┏────────────────⊷
@@ -58,7 +58,7 @@ const date = moment().format('DD/MM/YYYY');
 └─────═━┈┈━═─────⊷
 ┌────═━┈┈─═━┈┈━═⊷
 ❂ 『𝗖𝗢𝗡𝗧』
-➻  🕵 *Dev* : 𝗖𝗔𝗥𝗟 𝗪𝗜𝗟𝗟𝗜𝗔𝗠
+➻  🕵 *Dev* : *Mbuvi Tech*
 ➻  📱 *User* : ${s.OWNER_NAME}
 ➻   📡 *Platform* : ${os.platform}
 ╰── ⋅ ── ✩═━┈┈━═──⊷   \n\n`;
@@ -66,15 +66,15 @@ const date = moment().format('DD/MM/YYYY');
     let menuMsg=`
     
 ◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢
-> CYBERION-SPARK-X 
+> SAVAGE 
 ◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢
 ╭───────────────────⊷❒
 │DEDICATED PLUGINS❒⁠⁠⁠⁠
-│CYBERION-SPARK-X❒⁠⁠⁠⁠⁠⁠
+│SAVAGE❒⁠⁠⁠⁠⁠⁠
 ⁠⁠⁠⁠╰───────────────────⊷❒
-> BOT CHANNEL : https://whatsapp.com/channel/0029Vak0genJ93wQXq3q6X3h
+> BOT CHANNEL : https://whatsapp.com/channel/0029VaPZWbY1iUxVVRIIOm0D
 
-> CARLTECH PROJECT 2024🎖
+> MBUVI TECH 2024🎖
 `;
 
     for (const cat in coms) {
