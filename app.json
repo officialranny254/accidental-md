@@ -15238,11 +15238,11 @@
 
 
 {
-  "name":"Cyberion-Spark-X",
-  "description":"Best whatsapp bot developed by Carl william",
+  "name":"Savage Md",
+  "description":"Best whatsapp bot developed by Mbuvi Tech",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/5qomg9.jpg",
-  "repository":"https://github.com/carl24tech/Cyberion-Spark-X",
+  "logo":"https://telegra.ph/file/a7ca8d4777fa8ad977795.jpg",
+  "repository":"https://github.com/cheekydavy/JUNI",
   "succes_url":"/",
   "stack":"heroku-24",
   "env":{
@@ -15286,14 +15286,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Cyberion-Spark-X",
+      "value":"Savage Md",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://i.imgur.com/1lajgf4.mp4",
+      "value":"https://telegra.ph/file/a7ca8d4777fa8ad977795.jpg",
       "required":false
        
      },
@@ -15325,14 +15325,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𝐂𝐚𝐫𝐥 𝐖𝐢𝐥𝐥𝐢𝐚𝐦"
+    "value": "Mbuvi Tech"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254740271632,254770954948"
+    "value": "254746440595,254743680703"
   },
     "WARN_COUNT":
   {
@@ -15348,7 +15348,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"1",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
