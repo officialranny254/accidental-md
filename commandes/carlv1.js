@@ -12,10 +12,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "test", reaction: "🥴", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = '𝗧𝗛𝗘 𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦🗿𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡 𝗕𝗬 𝗖𝗔𝗥𝗟𝗧𝗘𝗖𝗛😎  \n\n ' + "𝗙𝗢𝗥𝗞 𝗧𝗛𝗘 𝗥𝗘𝗣𝗢 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬 𝗬𝗢𝗨𝗥 𝗢𝗪𝗡 𝗕𝗢𝗧 *𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡 𝗥𝗘𝗣𝗢*";
-    let d = 'https://github.com/carl24tech/Cyberion-Spark-X';
+    let z = '*THE MIGHTY SAVAGE MD BY MBUVI TECH😎*  \n\n ' + "𝗙𝗢𝗥𝗞 𝗧𝗛𝗘 𝗥𝗘𝗣𝗢 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬 𝗬𝗢𝗨𝗥 𝗢𝗪𝗡 𝗕𝗢𝗧 *SAVAGE MD*";
+    let d = 'https://github.com/cheekydavy/savage';
     let varmess = z + d;
-    var img = 'https://telegra.ph/file/506033ba9c46afad117f8.jpg';
+    var img = 'https://telegra.ph/file/a7ca8d4777fa8ad977795.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
