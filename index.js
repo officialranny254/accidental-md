@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Cyberion-Spark-X', "safari", "1.0.0"],
+            browser: ['Savage', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Cyberion-Spark-X',
+                                        pack: 'Savage',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Cyberion-Spark-X',
+                pack: 'Savage',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -610,7 +610,7 @@ function mybotpic() {
                          /******************* PM_PERMT***************/
 
             if (!superUser && origineMessage === auteurMessage&& conf.PM_PERMIT === "yes" ) {
-                repondre("You don't have acces to Cyberion Spark") ; return }
+                repondre("You don't have acces to Savage Md") ; return }
             ///////////////////////////////
 
              
@@ -635,7 +635,7 @@ function mybotpic() {
                 if(!superUser) {
                     let req = await isUserBanned(auteurMessage);
                     
-                        if (req) {repondre("Your access to Cyberion Spark is denied"); return}
+                        if (req) {repondre("Your access to Savage Md is denied"); return}
                     
 
                 } 
@@ -663,7 +663,7 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/cc5fd0e19ae11164bd813.jpg';
+        ppgroup = 'https://telegra.ph/file/a7ca8d4777fa8ad977795.jpg';
     }
 
     try {
@@ -684,11 +684,11 @@ zk.ev.on('group-participants.update', async (group) => {
 ╚════◇◇◇═════╝
 ◇ *Descriptioon*   ◇
 
-${metadata.desc}\n\n> Cyberion-Spark-X.`;
+${metadata.desc}\n\n> Savage Md.`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `Goodbye to that Fallen soldier, Powered by *𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡*; \n`;
+            let msg = `Goodbye to that Fallen soldier, Powered by *SAVAGE MD*; \n`;
 
             let membres = group.participants;
             for (let membre of membres) {
@@ -855,18 +855,18 @@ ${metadata.desc}\n\n> Cyberion-Spark-X.`;
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
  ┌─────═━┈┈━    ═─═━┈┈━═────┐
-   *☢️𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡-𝗦𝗣𝗔𝗥𝗞-𝗫 𝗔𝗖𝗧𝗜𝗩𝗘🌐*
+   *🤖SAVAGE MD ACTIVE🌐*
  └─────═━┈┈━    ═───────═───┘
     ┏▪︎▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-    ┃  🕵Creator: *CARLTECH*
+    ┃  🕵Creator: *MBUVI TECH*
     ┃  ❂──────────────────❂
     ┃  💫Prefix : 〔${prefixe}〕
     ┃  📱Mode : 〚${md}〛
-    ┃  ⚙️Created on : *23.8.2024*
+    ┃  ⚙️Created on : *16.10.2024*
     ┃  📃Total Commands : ${evt.cm.length}
     ✰⁠⁠⁠⁠▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰✰
  └─────═━┈┈━═─ ─ ═━┈┈━═─────┘
-         *𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡-𝗦𝗣𝗔𝗥𝗞-𝗫*`;
+         *SAVAGE MD*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
