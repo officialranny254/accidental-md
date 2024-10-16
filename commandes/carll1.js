@@ -61,7 +61,7 @@ zokou({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) =
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *Carl William*`);
+Powered by *Mbuvi Tech*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -74,14 +74,14 @@ Powered by *Carl William*`);
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   CYBERION-V1               ║
+║   SAVAGE MD            ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by CARL-MD`);
+Powered by Mbuvi Tech`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
