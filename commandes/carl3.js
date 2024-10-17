@@ -48,7 +48,7 @@ const sleep =  (ms) =>{
         type = 'not animated sticker'
       }
   
-      let msg = `   Cyberion-stickers-dl
+      let msg = `   Savage-stickers-dl
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
