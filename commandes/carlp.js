@@ -156,7 +156,7 @@ zokou(
          let quizz = await axios.get("https://quizzapi.jomoreschi.fr/api/v1/quiz?limit=1&difficulty=facile") ;
 
          
-   let msg = `     Cyberion-Quizz-Games
+   let msg = `     Savage-Quizz-Games
 
 *Category :* ${ await traduire(quizz.data.quizzes[0].category , {to : 'en'})}
 *Question :* ${ await traduire(quizz.data.quizzes[0].question, {to : 'en'})}\n\n*Answers :*\n`
