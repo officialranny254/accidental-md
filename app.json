@@ -15238,11 +15238,11 @@
 
 
 {
-  "name":"Savage Md",
-  "description":"Best whatsapp bot developed by Mbuvi Tech",
+  "name":"accidental Md",
+  "description":"Best whatsapp bot developed by Rhodvick Tech",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/a7ca8d4777fa8ad977795.jpg",
-  "repository":"https://github.com/cheekydavy/JUNI",
+  "repository":"https://github.com/Rhodvick/accidental-md",
   "succes_url":"/",
   "stack":"heroku-24",
   "env":{
@@ -15286,7 +15286,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Savage Md",
+      "value":"Accidental Md",
       "required":false
 
     } ,
@@ -15325,14 +15325,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Mbuvi Tech"
+    "value": "Rhodvick Tech"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254746440595,254743680703"
+    "value": "254115790827,254700150919,254115408870"
   },
     "WARN_COUNT":
   {
