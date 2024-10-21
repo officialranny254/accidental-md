@@ -243,7 +243,7 @@
 
 
 {
-    "name": "Savage Md",
+    "name": "Accidental Md",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -260,7 +260,7 @@
     "whatsapp-bot",
     "ibraah"
   ],
-  "author": "Mbuvi Tech",
+  "author": "Rhodvick Tech",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
