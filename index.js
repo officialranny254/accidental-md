@@ -165,7 +165,7 @@ setTimeout(() => {
             
             var dev = [FranceKing, FranceKing1,FranceKing2,FranceKing3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{Savage-Md}...[][]");
+            console.log("\t [][]...{Accidental-Md}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from the group : " + nomGroupe);
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Savage',
+                                        pack: 'RHODVICK',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Savage',
+                pack: 'RHODVICK',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -635,7 +635,7 @@ function mybotpic() {
                 if(!superUser) {
                     let req = await isUserBanned(auteurMessage);
                     
-                        if (req) {repondre("Your access to Savage Md is denied"); return}
+                        if (req) {repondre("Your access to accidental Md is denied"); return}
                     
 
                 } 
@@ -684,11 +684,11 @@ zk.ev.on('group-participants.update', async (group) => {
 ╚════◇◇◇═════╝
 ◇ *Descriptioon*   ◇
 
-${metadata.desc}\n\n> Savage Md.`;
+${metadata.desc}\n\n> Accidental Md.`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `Goodbye to that Fallen soldier, Powered by *SAVAGE MD*; \n`;
+            let msg = `Goodbye to that Fallen soldier, Powered by *ACCIDENTAL MD*; \n`;
 
             let membres = group.participants;
             for (let membre of membres) {
@@ -855,10 +855,10 @@ ${metadata.desc}\n\n> Savage Md.`;
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
  ┌─────═━┈┈━    ═─═━┈┈━═────┐
-   *🤖SAVAGE MD ACTIVE🌐*
+   *🤖ACCIDENTAL MD ACTIVE🌐*
  └─────═━┈┈━    ═───────═───┘
     ┏▪︎▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-    ┃  🕵Creator: *MBUVI TECH*
+    ┃  🕵Creator: *RHODVICK TECH*
     ┃  ❂──────────────────❂
     ┃  💫Prefix : 〔${prefixe}〕
     ┃  📱Mode : 〚${md}〛
@@ -866,7 +866,7 @@ ${metadata.desc}\n\n> Savage Md.`;
     ┃  📃Total Commands : ${evt.cm.length}
     ✰⁠⁠⁠⁠▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰✰
  └─────═━┈┈━═─ ─ ═━┈┈━═─────┘
-         *SAVAGE MD*`;
+         *ACCIDENTAL MD*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
