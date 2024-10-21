@@ -1,4 +1,4 @@
-# Security Policy of CarlTech Codes 
+# Security Policy of RHODVICK Tech Codes 
 
 ## Supported Versions
 
